@@ -1,6 +1,6 @@
 {
   "name": "create-vite-electron-fun",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Vite Electron Boilerplate cli",
   "main": "index.js",
   "bin": {
