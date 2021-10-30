@@ -3,17 +3,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "/@/*": [
-        "./src/*"
-      ]
+      "/@/*": ["./src/*"]
     },
-    "resolveJsonModule":true,
+    "resolveJsonModule": true
   },
-  "files": [
-    "types/electron-api.d.ts",
-    "src/index.ts"
-  ],
-  "include": [
-    "../../types/**/*.d.ts"
-  ]
+  "files": ["types/electron-api.d.ts", "src/index.ts"],
+  "include": ["../../types/**/*.d.ts"]
 }

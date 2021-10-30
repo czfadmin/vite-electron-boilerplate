@@ -11,37 +11,61 @@ dependencies:
   prompts: registry.npmmirror.com/prompts/2.4.2
 
 packages:
-
   registry.nlark.com/kleur/3.0.3:
-    resolution: {integrity: sha1-p5yezIbuHOP6YgbRIWxQHxR/wH4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/kleur/download/kleur-3.0.3.tgz}
+    resolution:
+      {
+        integrity: sha1-p5yezIbuHOP6YgbRIWxQHxR/wH4=,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.nlark.com/kleur/download/kleur-3.0.3.tgz,
+      }
     name: kleur
     version: 3.0.3
-    engines: {node: '>=6'}
+    engines: { node: ">=6" }
     dev: false
 
   registry.nlark.com/kolorist/1.5.0:
-    resolution: {integrity: sha1-oG990R0bX9t0PXnIrNTh7Ly9ibM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/kolorist/download/kolorist-1.5.0.tgz}
+    resolution:
+      {
+        integrity: sha1-oG990R0bX9t0PXnIrNTh7Ly9ibM=,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.nlark.com/kolorist/download/kolorist-1.5.0.tgz,
+      }
     name: kolorist
     version: 1.5.0
     dev: false
 
   registry.nlark.com/minimist/1.2.5:
-    resolution: {integrity: sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/minimist/download/minimist-1.2.5.tgz}
+    resolution:
+      {
+        integrity: sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.nlark.com/minimist/download/minimist-1.2.5.tgz,
+      }
     name: minimist
     version: 1.2.5
     dev: false
 
   registry.nlark.com/sisteransi/1.0.5:
-    resolution: {integrity: sha1-E01oEpd1ZDfMBcoBNw06elcQde0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/sisteransi/download/sisteransi-1.0.5.tgz}
+    resolution:
+      {
+        integrity: sha1-E01oEpd1ZDfMBcoBNw06elcQde0=,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.nlark.com/sisteransi/download/sisteransi-1.0.5.tgz,
+      }
     name: sisteransi
     version: 1.0.5
     dev: false
 
   registry.npmmirror.com/prompts/2.4.2:
-    resolution: {integrity: sha1-e1fnOzpIAprRDr1E90sBcipMsGk=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/prompts/download/prompts-2.4.2.tgz}
+    resolution:
+      {
+        integrity: sha1-e1fnOzpIAprRDr1E90sBcipMsGk=,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/prompts/download/prompts-2.4.2.tgz,
+      }
     name: prompts
     version: 2.4.2
-    engines: {node: '>= 6'}
+    engines: { node: ">= 6" }
     dependencies:
       kleur: registry.nlark.com/kleur/3.0.3
       sisteransi: registry.nlark.com/sisteransi/1.0.5

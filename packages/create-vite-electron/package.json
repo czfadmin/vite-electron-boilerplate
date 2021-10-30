@@ -1,25 +1,26 @@
 {
-    "name": "create-vite-electron",
-    "version": "1.0.0",
-    "description": "Vite Electron Boilerplate cli",
-    "main": "index.js",
-    "bin": {
-        "create-vite-electron": "index.js"
-    },
-    "scripts": {},
-    "files": [
-        "index.js",
-        "templates/**/*"
-    ],
-    "engines": {
-        "node": ">=12.0.0"
-    },
-    "keywords": [],
-    "author": "abchen",
-    "license": "ISC",
-    "dependencies": {
-        "kolorist": "^1.5.0",
-        "minimist": "^1.2.5",
-        "prompts": "^2.4.2"
-    }
+  "name": "create-vite-electron",
+  "version": "1.0.0",
+  "description": "Vite Electron Boilerplate cli",
+  "main": "index.js",
+  "bin": {
+    "create-vite-electron": "index.js",
+    "cve": "index.js"
+  },
+  "scripts": {},
+  "files": [
+    "index.js",
+    "templates/**/*"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [],
+  "author": "czfadmin",
+  "license": "MIT",
+  "dependencies": {
+    "kolorist": "^1.5.0",
+    "minimist": "^1.2.5",
+    "prompts": "^2.4.2"
+  }
 }

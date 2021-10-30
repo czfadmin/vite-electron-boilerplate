@@ -1,0 +1,7 @@
+packages/**/dist/
+pnpm-lock.yaml
+pnpm-workspace.yaml
+examples/**/*
+.prettierignore
+LICENSE.md
+images/**/*
