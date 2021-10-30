@@ -1,3 +1,5 @@
+// https://github.com/vitejs/vite/blob/d66ea0f420eb7926d927b64e40ecaf83d9388e63/packages/create-vite/index.js
+// This file is modified on the basis of the `@vite/create-Vite` file
 const { red, green, yellow, blue, magenta, cyan } = require('kolorist')
 const prompts = require('prompts')
 const path = require('path')
@@ -127,7 +129,7 @@ async function init() {
           message:
             typeof _framework === 'string' &&
             !FRAMEWORKS.map((it) => it.name).includes(_framework)
-              ? `"${_framework}" is not a valid _framework. Please choose from blew: `
+              ? `"${_framework}" is not a valid framework. Please choose from blew: `
               : 'Select Framework',
           initial: 0,
           choices: FRAMEWORKS.map((framework) => {
@@ -153,13 +155,13 @@ async function init() {
   const root = path.join(cwd, targetDir)
   let templateDir = ''
   if (lang.name === 'Typescript') {
-    templateDir = path.join(__dirname, `../../templates/ts/${framework.name}`)
+    templateDir = path.join(__dirname, `templates/ts/${framework.name}`)
   } else {
-    templateDir = path.join(__dirname, `../../templates/js/${framework.name}`)
+    templateDir = path.join(__dirname, `templates/js/${framework.name}`)
   }
 
   // copy electron files
-  const electronRootDir = path.join(__dirname, '../../templates/electron')
+  const electronRootDir = path.join(__dirname, 'templates/electron')
   const electronFiles = fs.readdirSync(electronRootDir)
   const writleElectronFile = (file, content) => {
     const tragetPath = renameFiles[file]
