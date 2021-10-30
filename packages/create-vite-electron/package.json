@@ -28,6 +28,5 @@
     "kolorist": "^1.5.0",
     "minimist": "^1.2.5",
     "prompts": "^2.4.2"
-  },
-  "gitHead": "90a1cdb53f8213fac95050e0be0880a0fe73fc7f"
+  }
 }
