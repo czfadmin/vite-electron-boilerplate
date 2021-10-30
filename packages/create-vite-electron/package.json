@@ -10,7 +10,8 @@
   "scripts": {},
   "files": [
     "index.js",
-    "templates/**/*"
+    "templates/**/*",
+    "images/**/*"
   ],
   "engines": {
     "node": ">=12.0.0"
