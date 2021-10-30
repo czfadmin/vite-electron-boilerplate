@@ -1,8 +1,9 @@
 <h1 align=center>Vite Electron Boilerplate</h1>
 
-### Scaffolding Your First Vite Electron Pojrect
 
-Use Typescript and Vite to quickly build your Electron project
+### Scaffolding Your First Vite Electron Pojrect
+#### Use Typescript and Vite to quickly build your Electron project
+#### The files in the template are modified on the basis of **[cawa-93/vite-electron-builder](https://github.com/cawa-93/vite-electron-builder)**. The **React/Preact/Svelte/Lit/Vanilla** project template is added to the original basis of vite-electron-builder
 
 ### Templates:
 
@@ -12,6 +13,21 @@ Use Typescript and Vite to quickly build your Electron project
 - Vue
 - Lit
 - Vanilla
+
+```bash
+# pnpm
+pnpm dlx create-vite-electron-fun
+
+# yarn
+1. yarn create vite-electron-fun
+
+2. cve
+
+# npx
+npx create-vite-electron-fun
+
+
+```
 
 ![picture 1](images/de3e04938a7b08ba6635da207841ab5e9a17e814543412c16851a6dffd04ccc7.png)
 
