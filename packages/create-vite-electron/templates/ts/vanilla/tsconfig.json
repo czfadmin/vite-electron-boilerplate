@@ -14,5 +14,9 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true
   },
-  "include": ["./src"]
+  "include": [
+    "./src",
+    "../../types/**/*.d.ts",
+    "../preload/types/electron-api.d.ts"
+  ]
 }

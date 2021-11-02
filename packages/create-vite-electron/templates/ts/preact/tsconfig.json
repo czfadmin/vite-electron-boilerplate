@@ -18,5 +18,9 @@
     "jsxFactory": "h",
     "jsxFragmentFactory": "Fragment"
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "../preload/types/electron-api.d.ts",
+    "../../types/**/*.d.ts"
+  ]
 }

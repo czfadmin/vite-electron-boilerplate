@@ -16,5 +16,9 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["./src"]
+  "include": [
+    "./src",
+    "../preload/types/electron-api.d.ts",
+    "../../types/**/*.d.ts"
+  ]
 }
