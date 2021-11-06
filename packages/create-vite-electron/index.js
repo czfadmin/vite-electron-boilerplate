@@ -1,5 +1,7 @@
 #!/usr/bin/env node
+
 // https://github.com/vitejs/vite/blob/d66ea0f420eb7926d927b64e40ecaf83d9388e63/packages/create-vite/index.js
+
 // This file is modified on the basis of the `@vite/create-Vite` file
 const { red, green, yellow, blue, magenta, cyan } = require('kolorist')
 const prompts = require('prompts')
@@ -74,11 +76,6 @@ const FRAMEWORKS = [
   }
 ]
 const LANGS = [
-  // {
-  //     name: "Javascript",
-  //     color: yellow,
-  //     variants: FRAMEWORKS,
-  // },
   {
     name: 'Typescript',
     color: blue,
