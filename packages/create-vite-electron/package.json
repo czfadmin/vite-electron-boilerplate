@@ -30,5 +30,13 @@
     "minimist": "^1.2.5",
     "prompts": "^2.4.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czfadmin/vite-electron-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/czfadmin/vite-electron-boilerplate/issues"
+  },
+  "homepage": "https://github.com/czfadmin/vite-electron-boilerplate/blob/main/README.md",
   "gitHead": "640e9a3b49457ebb81c000ac6f6687737c4fc9b3"
 }
